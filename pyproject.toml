@@ -6,8 +6,20 @@ authors = ["rukawa917 <chriskang960723@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10"
-
+python = "^3.10"
+pandas = "2.2.2"
+numpy = "2.0.0"
+scipy = "1.13.1"
+cvxpy = "1.5.2"
+osqp = "0.6.7"
+scs = "3.2.4.post3"
+qdldl = "0.1.7.post3"
+ecos = "2.0.14"
+clarabel = "0.9.0"
+python-dateutil = "2.9.0.post0"
+pytz = "2024.1"
+six = "1.16.0"
+tzdata = "2024.1"
 
 
 [build-system]
